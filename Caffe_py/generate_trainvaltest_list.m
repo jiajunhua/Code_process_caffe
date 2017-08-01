@@ -2,8 +2,8 @@
 % The code used to create train.txt in faster-RCNN 
 %%  
 
-xmlfilepath='I:\Anotate';  
-txtsavepath='I:\xx';  
+xmlfilepath='F:\Pap_cell\Import_data\Dataset_DL\voc2007_cell\Annotations';  
+txtsavepath='F:\Pap_cell\Import_data\Dataset_DL\voc2007_cell\ImageSets\Main';  
 trainval_percent=0.8;
 train_percent=0.8;
   

@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# 测试小于一定大小的图像内存 
+
 import os
 import sys
 import glob

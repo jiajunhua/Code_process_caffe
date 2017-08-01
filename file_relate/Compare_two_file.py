@@ -6,11 +6,11 @@ import glob
 from PIL import Image
 
 
-outDir = os.path.abspath('I:\\D_to_I\\111')
+outDir = os.path.abspath('F:\\Pap_cell\\Import_data\\Dataset_DL\\test1')
 # path2Image = 'F:\\Pap_cell\\Import_data\\Dataset_DL\\test'
 # Images = os.listdir(path2Image)
 
-imageDir1 = os.path.abspath('I:\\D_to_I\\03-B07-20170712181228')
+imageDir1 = os.path.abspath('F:\\Pap_cell\\Import_data\\Dataset_DL\\test')
 
 
 image1 = []
@@ -26,7 +26,7 @@ for item in image1:
     imgname1.append(temp1)
 
 
-imageDir2 = os.path.abspath('I:\\D_to_I\\test')
+imageDir2 = os.path.abspath('F:\\Pap_cell\\Import_data\\Dataset_DL\\xml')
 image2 = []
 imgname2 = []
 imageList2 = glob.glob(os.path.join(imageDir2, '*.xml'))
