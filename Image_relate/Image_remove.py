@@ -21,11 +21,13 @@ def data_process(image_files):
             print 'nice'
 
 
-dir_list = os.listdir("I:\\0720_TMAP_img_cell")
+dir_list = os.listdir("I:\\0720_TMAP_img_cell\\P171419")
 
 for dir_ in dir_list:
 
-    image_files = glob.glob("I:\\0720_TMAP_img_cell\\" + dir_ + "\\*.jpg")
+    # image_files = glob.glob("I:\\0720_TMAP_img_cell\\" + dir_ + "\\*.jpg")
+
+    image_files = glob.glob("I:\\0720_TMAP_img_cell\\P171419\\*.jpg")
 
     if len(image_files) == 0:
         continue
